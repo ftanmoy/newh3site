@@ -1,0 +1,122 @@
+.nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 16px 32px;
+    background-color: white;
+}
+
+.nav-container .logo {
+    width: 60px;
+}
+
+.hamburger {
+    display: block;
+    position: relative;
+    z-index: none;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: black;
+    border-radius: 5px;
+    transform-origin: 0 0;
+    transition: 0.4s;
+}
+
+.hamburger:hover span:nth-child(2) {
+    transform: translateX(10px);
+}
+
+.hamburger.is-active span:nth-child(1) {
+    transform: translate(0px, 0px) rotate(45deg);
+}
+
+.hamburger.is-active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-15px);
+}
+
+.hamburger.is-active span:nth-child(3) {
+    transform: translate(-3px, 3px) rotate(-45deg);
+}
+
+.menu {
+    display: none;
+    flex: 1 1 0%;
+    justify-content: flex-end;
+    margin: 0px -16px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 16px;
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: grey;
+}
+
+#mobile-nav {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 12vh;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 999;
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 10%;
+}
+
+.mobile-menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 40px;
+    line-height: 60px;
+    transition: 0.4s ease;
+}
+
+.mobile-menu a:hover {
+    transform: translateX(15px);
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }
+}

@@ -1,0 +1,30 @@
+.primary-footer {
+    background-color: rgb(140, 177, 152);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.primary-footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.white-logo {
+    width: 70px;
+}
+
+.secondary-footer {
+    text-align: center;
+    background-color: rgb(31, 52, 53);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+}
