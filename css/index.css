@@ -130,7 +130,7 @@ banner {
 
 .connections {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .connection-card {
@@ -141,6 +141,8 @@ banner {
     border-radius: 25px;
     box-shadow: 0 0 55px rgb(191, 191, 191);
     transition: 0.4s ease;
+    width: 20%;
+    margin: auto 0;
 }
 
 .connection-card:hover {
@@ -150,10 +152,12 @@ banner {
 .connection-name {
     padding-top: 15px;
     margin: 0 4px;
+    font-size: 18px;
 }
 
 .connection-logo {
     width: 70%;
+    object-fit: cover;
 }
 
 @media (max-width: 768px) {
