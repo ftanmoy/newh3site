@@ -99,7 +99,7 @@ banner {
 
 .banner-contact-btn:active {
     background-color: rgb(31, 52, 53);
-    box-shadow: 0 9px rgb(44, 50, 51);
+    box-shadow: 0 5px rgb(44, 50, 51);
     transform: translateY(4px);
 }
 
@@ -138,8 +138,8 @@ banner {
     background-color: rgb(246, 243, 243);
     border: solid 1px rgb(239, 236, 236);
     padding: 20px 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 45px rgb(191, 191, 191);
+    border-radius: 25px;
+    box-shadow: 0 0 55px rgb(191, 191, 191);
     transition: 0.4s ease;
 }
 
@@ -157,9 +157,12 @@ banner {
 }
 
 @media (max-width: 768px) {
-    .our-purpose-text {
-        margin-right: 50px;
-        margin-left: 50px;
+    .section-content {
+        width: 100%;
+    }
+    .section-text {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
     }
     .banner-content {
         overflow-x: hidden;

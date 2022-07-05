@@ -16,6 +16,66 @@
     width: 70px;
 }
 
+.form-text {
+    padding-bottom: 30px;
+}
+
+.name-field, .email-field {
+    margin-right: 15px;
+    width: 200px
+}
+
+input {
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px rgb(31, 52, 53);
+    font-family: 'Outfit', sans-serif;
+}
+
+.submit-btn {
+    background-color: rgb(68, 142, 146); /* Green */
+    box-shadow: 0 3px rgb(31, 52, 53);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit-btn:active {
+    box-shadow: 0 1px rgb(31, 52, 53);
+    transform: translateY(2px);
+}
+
+.footer-links {
+
+}
+
+.footer-links ul li {
+    margin: 10px 0px;
+    list-style: none;
+    text-align: right;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(31, 52, 53);
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
 .secondary-footer {
     text-align: center;
     background-color: rgb(31, 52, 53);
@@ -27,4 +87,48 @@ footer p {
     color: white;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .primary-footer-container {
+        display: block;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .white-logo {
+        display: none;
+        outline: 2px solid red;
+        margin: 0 auto;
+    }
+    .form-text {
+        padding-top: 30px;
+    }
+    .form-text-desc {
+        padding-top: 10px;
+        font-size: 18px !important;
+        line-height: 24px;
+    }
+    input {
+        padding: 12px 14px;
+        width: 100% !important;
+        font-size: 18px;
+    }
+    .email-field {
+        margin-top: 20px;
+    }
+    .submit-btn {
+        font-size: 20px;
+        padding: 12px 14px;
+        margin-top: 20px;
+    }
+    .footer-links {
+        margin-top: 30px;
+        
+    }
+    .footer-links ul li {
+        text-align: center;
+    }
+    .footer-links ul li a {
+        font-size: 22px;
+    }
 }
