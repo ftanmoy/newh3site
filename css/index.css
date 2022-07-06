@@ -181,8 +181,12 @@ banner {
         margin-right: 30px;
         margin-left: 30px;
     }
+    .bot-row-connections {
+        padding-top: 0 !important;
+    }
     .connection-card {
         margin: 40px;
+        width: fit-content;
     }
 }
 
