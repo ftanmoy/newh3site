@@ -161,6 +161,10 @@ banner {
     object-fit: cover;
 }
 
+.bot-row-connections {
+    padding-top: 60px;
+}
+
 @media (max-width: 768px) {
     .section-content {
         width: 100%;
