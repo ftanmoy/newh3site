@@ -153,6 +153,7 @@ banner {
     padding-top: 15px;
     margin: 0 4px;
     font-size: 18px;
+    user-select: none;
 }
 
 .connection-logo {
