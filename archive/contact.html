@@ -7,12 +7,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Our Credentials | H3 Systems & Solutions LLC</title>
+        <title>Contact Us | H3 Systems & Solutions LLC</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/navbar.css">
         <link rel="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./css/credentials.css">
         <link rel="stylesheet" href="./css/index.css">
         <link rel="icon" type="image/svg" href="imgs/H3 Logo.svg">
     </head>
@@ -27,7 +26,8 @@
                 <div class="menu">
                     <a href="index.html">Home</a>
                     <a href="credentials.html" class="is-active">Credentials</a>
-                    <a href="#contact">Contact</a>
+                    <a href="about-us.html">About</a>
+                    <a href="contact.html">Contact</a>
                 </div>
                 <button id="hamburger" class="hamburger">
                     <span></span>
@@ -40,34 +40,34 @@
             <div class="mobile-menu">
                 <a href="index.html" class="is-active">Home</a>
                 <a href="credentials.html">Credentials</a>
-                <a href="#contact">Contact</a>
+                <a href="about-us.html">About</a>
+                <a href="contact.html">Contact</a>
             </div>
             <p class="copyright-menu">
                 &copy; H3 Systems & Solutions LLC.
             </p>
         </nav>
 
-        <banner>
-            <div class="banner-container credentials-banner">
-                <div class="banner-content">
-                    <h1>Our Credentials</h1>
-                </div>
-            </div>
-        </banner>
-
         <section>
             <div class="section-content">
                 <div class="section-text">
-                    <h2 class="section-title">
-                        We are registered agents with:
-                    </h2>
-                    <div class="credentials__items">
-                        <img src="./imgs/cred_logo/dept_of_state.svg" alt="U.S. Department of State Logo">
-                        <img src="./imgs/cred_logo/bd_security_services_logo.png" alt="Bangladesh Security Services Logo">
-                        <img src="./imgs/cred_logo/dgdp_logo.png" alt="Bangladesh DGDP Logo">
-                        <img src="./imgs/cred_logo/bd_navy_nssd_logo.png" alt="Bangladesh NSSD Logo">
-                    </div>
+                    <h2 class="section-title">Get in touch!</h2>
+                    <p class="section-synopsis">
+                        Please fill out the form with what you need to discuss. We will be in touch with you shortly (usually within 24 hours)
+                        to set up a meeting time for us to discuss further. Thank you, we can't wait to speak with you soon.
+                    </p>
                 </div>
+
+                <form action="https://formsubmit.co/tanmoyfarhant5@gmail.com" method="POST">
+                    <div class="form-fields">
+                        <input type="text" name="name" placeholder="Name" class="name-field" required>
+                        <input type="email" name="email" placeholder="Email Address" class="email-field" required>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <input type="hidden" name="_next" value="./thankyou.html">
+                    </div>
+                    <button type="submit" class="submit-btn">Send</button>
+               </form>
+
             </div>
         </section>
 
@@ -76,22 +76,12 @@
                 <div class="primary-footer">
                     <div class="primary-footer-container">
                         <img src="./imgs/whiteh3logo.svg" alt="H3 Systems & Solutions LLC" class="white-logo">
-                        <form action="https://formsubmit.co/tanmoyfarhant5@gmail.com" method="POST" id="contact">
-                            <div class="form-text">
-                                <h2>Get in touch with us!</h2>
-                                <p class="form-text-desc">Fill out this form and we will get back to you as soon as possible!</p>
-                            </div>
-                            <div class="form-fields">
-                                <input type="text" name="name" placeholder="Name" class="name-field" required>
-                                <input type="email" name="email" placeholder="Email Address" class="email-field" required>
-                                <input type="hidden" name="_next" value="./thankyou.html">
-                            </div>
-                            <button type="submit" class="submit-btn">Send</button>
-                       </form>
+                        
                         <div class="footer-links">
                             <ul>
                                 <li><a href="credentials.html">Credentials</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                     </div>
