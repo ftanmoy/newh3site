@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -7,15 +7,101 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Thank You!</title>
+        <title>Thank You | H3 Systems & Solutions LLC</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/thankyou.css">
+        <link rel="icon" type="image/svg" href="imgs/H3 Logo.svg">
     </head>
     <body>
-        <h1>Thank you!</h1>
-        <p>We will reach out as soon as possoble!</p>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
         
-        <script src="" async defer></script>
+        <nav>
+            <div class="nav-container">
+                <img src="./imgs/H3 Logo.svg" class="logo" alt="H3 Systems & Solutions Logo">
+                <div class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="credentials.html" class="is-active">Credentials</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button id="hamburger" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <nav id="mobile-nav" class="mobile-nav" style="display: none; opacity: 0;">
+            <div class="mobile-menu">
+                <a href="index.html" class="is-active">Home</a>
+                <a href="credentials.html">Credentials</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright-menu">
+                &copy; H3 Systems & Solutions LLC.
+            </p>
+        </nav>
+
+        <banner>
+            <div class="banner-container thankyou-banner">
+                <div class="banner-content">
+                    <h1></h1>
+                </div>
+                <div class="banner-content">
+                    <h1></h1>
+                </div>
+            </div>
+        </banner>
+
+        <section>
+            <div class="section-content">
+                <div class="section-text">
+                    <h2 class="section-title">
+                        Thank you!
+                    </h2>
+                    <p class="section-synopsis">
+                        We will reach out to you within the next 36-48 hours with regards to setting up a meeting, so you can get started planning for your next move.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="primary-footer">
+                    <div class="primary-footer-container">
+                        <img src="./imgs/whiteh3logo.svg" alt="H3 Systems & Solutions LLC" class="white-logo">
+                        <!-- <form action="https://formsubmit.co/tanmoyfarhant5@gmail.com" method="POST" id="contact">
+                            <div class="form-text">
+                                <h2>Get in touch with us!</h2>
+                                <p class="form-text-desc">Fill out this form and we will get back to you as soon as possible!</p>
+                            </div>
+                            <div class="form-fields">
+                                <input type="text" name="name" placeholder="Name" class="name-field" required>
+                                <input type="email" name="email" placeholder="Email Address" class="email-field" required>
+                                <input type="hidden" name="_next" value="./thankyou.html">
+                            </div>
+                            <button type="submit" class="submit-btn">Send</button>
+                       </form> -->
+                        <div class="footer-links">
+                            <ul>
+                                <li><a href="./index.html#our-connections">Our Connections</a></li>
+                                <li><a href="credentials.html">Our Credentials</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-footer">
+                    <p>&copy; H3 Systems & Solutions LLC. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/navbar.js" async defer></script>
     </body>
 </html>

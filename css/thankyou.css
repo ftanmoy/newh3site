@@ -1,0 +1,8 @@
+.thankyou-banner {
+    background-image: url("../imgs/thankyoubannerimg.jpg") !important;
+    background-position: 50%;
+
+}
+.thankyou-banner::before {
+    background-color: rgba(54, 54, 54, 0.039) !important;
+}

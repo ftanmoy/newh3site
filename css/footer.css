@@ -8,8 +8,8 @@
 .primary-footer-container {
     max-width: 1280px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
 }
 
 .white-logo {
@@ -18,6 +18,10 @@
 
 .form-text {
     padding-bottom: 30px;
+}
+
+.form-text-desc {
+    padding-top: 10px;
 }
 
 .name-field, .email-field {
@@ -55,10 +59,6 @@ input {
     transform: translateY(2px);
 }
 
-.footer-links {
-
-}
-
 .footer-links ul li {
     margin: 10px 0px;
     list-style: none;
@@ -87,6 +87,54 @@ footer p {
     color: white;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+@media (max-width: 1300px) {
+    .primary-footer-container {
+        display: block;
+    }
+    .white-logo {
+        display: none;
+        outline: 2px solid red;
+        margin: 0 auto;
+    }
+    #contact {
+        text-align: center;
+        margin-right: 90px;
+        margin-left: 90px;
+        margin-bottom: 50px;
+    }
+    .form-text {
+        padding-top: 30px;
+    }
+    .form-text-desc {
+        padding-top: 10px;
+        font-size: 18px !important;
+        line-height: 24px;
+    }
+    input {
+        padding: 12px 14px;
+        width: 100% !important;
+        font-size: 18px;
+    }
+    .email-field {
+        margin-top: 20px;
+    }
+    .submit-btn {
+        font-size: 20px;
+        padding: 12px 14px;
+        margin-top: 20px;
+    }
+    .footer-links {
+        margin-top: 30px;
+        
+    }
+    .footer-links ul li {
+        text-align: center;
+    }
+    .footer-links ul li a {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 768px) {
