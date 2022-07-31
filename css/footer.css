@@ -9,7 +9,7 @@
     max-width: 1280px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 30% 60% 10%;
+    grid-template-columns: 30% 50% 20%;
 }
 
 .white-logo {
