@@ -1,19 +1,19 @@
 .primary-footer {
-    background-color: rgb(140, 177, 152);
+    background-color: rgb(222, 222, 222);
     padding-top: 50px;
     padding-bottom: 50px;
-    color: white;
+    color: black
 }
 
 .primary-footer-container {
     max-width: 1280px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 30% 60% 10%;
 }
 
 .white-logo {
-    width: 70px;
+    margin-right: 50px;
 }
 
 .form-text {
@@ -22,6 +22,7 @@
 
 .form-text-desc {
     padding-top: 10px;
+    color: black
 }
 
 .name-field, .email-field {
@@ -34,13 +35,13 @@ input {
     box-sizing: border-box;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 4px rgb(31, 52, 53);
+    box-shadow: 0 4px #9a1825;
     font-family: 'Outfit', sans-serif;
 }
 
 .submit-btn {
-    background-color: rgb(68, 142, 146); /* Green */
-    box-shadow: 0 3px rgb(31, 52, 53);
+    background-color: #d13848;
+    box-shadow: 0 3px #9a1825;
     border: none;
     border-radius: 10px;
     color: white;
@@ -78,7 +79,7 @@ input {
 
 .secondary-footer {
     text-align: center;
-    background-color: rgb(31, 52, 53);
+    background-color: #BE1E2D;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -94,9 +95,9 @@ footer p {
         display: block;
     }
     .white-logo {
-        display: none;
-        outline: 2px solid red;
-        margin: 0 auto;
+        width: 50%;
+        right: 50%;
+        transform: translateX(50%);
     }
     #contact {
         text-align: center;
@@ -144,9 +145,14 @@ footer p {
         margin-left: 25px;
     }
     .white-logo {
-        display: none;
-        outline: 2px solid red;
+        width: 100%;
+        display: block;
+        position: relative;
         margin: 0 auto;
+    }
+    #contact {
+        margin-right: 25px;
+        margin-left: 25px;
     }
     .form-text {
         padding-top: 30px;

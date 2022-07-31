@@ -51,7 +51,7 @@ banner {
     right: 0px;
     bottom: 0px;
     left: 0px;
-    background-color: rgba(54, 54, 54, 0.699);
+    background-color: rgba(54, 54, 54, 0.8);
 }
 
 .banner-content {
@@ -85,17 +85,17 @@ banner {
     margin-top: 30px;
     border-radius: 10px;
     color: white;
-    background-color: rgb(68, 142, 146);
+    background-color: #d13848;
     border: none;
     cursor: pointer;
-    box-shadow: 0 9px rgb(75, 98, 100);
+    box-shadow: 0 9px #9a1825;
     text-transform: uppercase;
     font-weight: 600;
     transition: 0.4s ease;
 }
 
 .banner-contact-btn:hover {
-    background-color: rgb(31, 52, 53);
+    background-color: #BE1E2D;
 }
 
 .banner-contact-btn:active {
