@@ -38,7 +38,7 @@ banner {
     display: flex;
     text-align: center;
     width: 100%;
-    background-image: url("../imgs/bannerimg2.avif");
+    background-image: url("../imgs/bannerimg2.jpg");
     background-position: 50%;
     background-size: cover;
     background-attachment: scroll;

@@ -96,6 +96,8 @@ nav {
 .mobile-menu {
     position: absolute;
     top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .mobile-menu a {
@@ -117,7 +119,6 @@ nav {
         display: none;
     }
     .menu {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
     }
 }
